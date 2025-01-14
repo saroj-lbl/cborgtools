@@ -3,10 +3,13 @@ cli and tui tools for cborg
 
 ## `cborghelp`
 Requires `scienceit-docs` folder to be present as it sends the markdown files from the documentation as context.
+
+Use `git clone --recurse-submodules git@github.com:saroj-lbl/cborgtools.git` to clone the documentation included as a submodule.
+
 Examples:
+
 ```
 python cborghelp.py "How much does it cost to run 24 hours on 3 lr6 nodes?"
-python cborghelp.py "What is wrong with my slurm script? Error message says module not found." --file script.sh
 ```
 
 ## `cborgtui`
