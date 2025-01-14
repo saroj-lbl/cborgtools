@@ -1,0 +1,11 @@
+[project]
+name = "cborgtools"
+version = "0.1.1"
+description = "command line and tui tools for cborg"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.57.2",
+    "rich>=13.9.4",
+    "textual>=1.0.0",
+]
