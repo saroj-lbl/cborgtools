@@ -1,0 +1,3 @@
+[submodule "scienceit-docs"]
+	path = scienceit-docs
+	url = https://github.com/lbnl-science-it/scienceit-docs.git
